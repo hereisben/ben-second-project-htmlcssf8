@@ -143,6 +143,7 @@ a {
 
 .courses-number {
   display: flex;
+  background-color: orange;
   flex-direction: column;
   justify-content: center;
   position: absolute;
@@ -160,7 +161,7 @@ a {
   align-items: center;
 }
 
-.courses-item ~ .courses-item {
+.courses-item + .courses-item {
   margin-top: 1.4rem;
 }
 
@@ -191,6 +192,7 @@ a {
 }
 
 .courses-item .courses-label .number-of-course {
+  margin: 0;
   color: #5f5b53;
   font-size: 1.4rem;
   font-weight: 400;
@@ -198,6 +200,7 @@ a {
 }
 
 .courses-item .courses-label .course-name {
+  margin: 0;
   color: #171100;
   font-size: 1.8rem;
   font-weight: 600;
