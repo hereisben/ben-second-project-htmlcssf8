@@ -143,7 +143,6 @@ a {
 
 .courses-number {
   display: flex;
-  background-color: orange;
   flex-direction: column;
   justify-content: center;
   position: absolute;
@@ -679,6 +678,10 @@ a {
   padding-bottom: 2.8rem;
   margin-top: 5.5rem;
   width: 37rem;
+}
+
+.blog-detail-container {
+  margin: auto 2rem;
 }
 
 .blog .blog-thumb {
